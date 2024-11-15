@@ -1,15 +1,15 @@
 # GroupC
 
 # Use Case
-US02
+us02
 
-# Team Memebers
+# Authors of the project
  - Georges Sarkis
  - Maher Halabi
  - Georges Saad
  - Christian Tauk
 
-# Use Case Members
+# Authors of us01
 - Georges Saad
 - Christian Tauk
 
