@@ -1,15 +1,15 @@
-# GroupA7
+# GroupC
 
 # Use Case
-US01
+us01
 
-# Team Memebers
+# Authors of the project
  - Georges Sarkis
  - Maher Halabi
  - Goerges Saad
  - Christian Tauk
 
-# Use Case Members
+# Authors of us01
 - Georges Sarkis
 - Maher Halabi
 
@@ -25,5 +25,3 @@ https://netusekedu-my.sharepoint.com/:v:/g/personal/georges_y_sarkis_net_usek_ed
 - Put all concepts in their own dialogue box 
 - Bonus: Modify the "displayinfo" template to accept an image as argument (i.e., in addition to headingText and pageText)
 
-# Github Link repository
-https://github.com/Georges-Sarkis/GroupC/tree/us01/finalProject
