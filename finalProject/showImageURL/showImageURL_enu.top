@@ -1,8 +1,0 @@
-topic: ~showImageURL()
-language: enu
-
-u:(start) $imageURL=welcome1.jpg "i will display this image now for you" 
-u:(stop) $imageURL=goodbye1.jpg "i will quit now" $onStopped=1
-
- 
-

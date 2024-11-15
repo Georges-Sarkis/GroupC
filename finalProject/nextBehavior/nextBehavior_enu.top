@@ -1,9 +1,0 @@
-topic: ~nextBehavior()
-language: enu
-
-include: concepts_enu.top
-
-u:(e:onStart) When you fill the application on the site, please say next to begin your quizz 
-    u1:(next) ^nextProposal
-    
-proposal: now we are going to start conducting the quiz... goodluck $onStopped=1 
