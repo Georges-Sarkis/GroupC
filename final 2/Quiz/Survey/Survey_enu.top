@@ -1,0 +1,87 @@
+topic: ~Survey()
+language: enu
+
+include: concepts_enu.top
+
+u: (e:onStart) \rspd=85\ we will start your technical quiz now. \pau=300\ It is a multiple choice questions, where only one question is  right \pau=500\ ^nextProposal
+
+
+proposal: $question="The size of a conductor used in power cables depends on the:  A:operating voltage; B:power factor; C:current to be carried" $question
+
+   
+    $event=1
+    u1: (A) $proposal1=0 ^nextProposal $surveyAnswers=0
+    u1: (B) $proposal1=0 ^nextProposal $surveyAnswers=0
+    u1: (C) $proposal1=1 ^nextProposal $surveyAnswers=1 
+    u1:(e:repeat)^sameProposal
+    u1:(e:aAnswer)$proposal1=0 ^nextProposal $surveyAnswers=0
+    u1:(e:bAnswer)$proposal1=0 ^nextProposal $surveyAnswers=0
+    u1:(e:cAnswer)$proposal1=1 ^nextProposal $surveyAnswers=1
+ 
+    u1: (~repeat) ^sameProposal
+
+proposal:$question= "If a resistor suddenly decreases in value, what will happen to the current through the resistor? A:Increases; B:Decreases; C:Remains the same" $question
+    $event=1
+    u1: (A) $proposal1=1 ^nextProposal $surveyAnswers=1
+    u1: (B) $proposal1=0 ^nextProposal $surveyAnswers=0
+    u1: (C) $proposal1=0 ^nextProposal $surveyAnswers=0 
+    u1:(e:repeat)^sameProposal
+    u1:(e:aAnswer)$proposal1=1 ^nextProposal $surveyAnswers=1
+    u1:(e:bAnswer)$proposal1=0 ^nextProposal $surveyAnswers=0
+    u1:(e:cAnswer)$proposal1=0 ^nextProposal $surveyAnswers=0
+    u1: (~repeat) ^sameProposal
+
+proposal:$question="Which of the following devices can be used to test the windings of an inductor for continuity? A:Voltmeter; B:Wheatsone Bridge; C:Ohmmeter" $question
+    $event=1
+
+    u1: (A) $proposal1=0 ^nextProposal $surveyAnswers=0
+    u1: (B) $proposal1=0 ^nextProposal $surveyAnswers=0
+    u1: (C) $proposal1=1 ^nextProposal $surveyAnswers=1 
+    u1:(e:repeat)^sameProposal
+    u1:(e:aAnswer)$proposal1=0 ^nextProposal $surveyAnswers=0
+    u1:(e:bAnswer)$proposal1=0 ^nextProposal $surveyAnswers=0
+    u1:(e:cAnswer)$proposal1=1 ^nextProposal $surveyAnswers=1
+    u1: (~repeat) ^sameProposal
+
+proposal:$question="The most dangerous place to use electrical equipment is?: A:Indoors; B:Near Water; C:Outdoors" $question
+    $event=1
+
+
+    u1: (A) $proposal1=0 ^nextProposal $surveyAnswers=0
+    u1: (B) $proposal1=1 ^nextProposal $surveyAnswers=1
+    u1: (C) $proposal1=0 ^nextProposal $surveyAnswers=0 
+    u1:(e:repeat)^sameProposal
+    u1:(e:aAnswer)$proposal1=0 ^nextProposal $surveyAnswers=0
+    u1:(e:bAnswer)$proposal1=1 ^nextProposal $surveyAnswers=1
+    u1:(e:cAnswer)$proposal1=0 ^nextProposal $surveyAnswers=0
+    u1: (~repeat) ^sameProposal
+
+proposal: $question="The safest ladder to use around electricity is? A:Aluminium; B:Fiberglass C:step stool" $question
+
+    u1: (A) $proposal1=0 ^nextProposal $surveyAnswers=0
+    u1: (B) $proposal1=1 ^nextProposal $surveyAnswers=1
+    u1: (C) $proposal1=0 ^nextProposal $surveyAnswers=0
+    u1:(e:repeat)^sameProposal
+    u1:(e:aAnswer)$proposal1=0 ^nextProposal $surveyAnswers=0
+    u1:(e:bAnswer)$proposal1=1 ^nextProposal $surveyAnswers=1
+    u1:(e:cAnswer)$proposal1=0 ^nextProposal $surveyAnswers=0
+    u1: (~repeat) ^sameProposal
+
+proposal:$question="Which type of fire extinguisher will only make the fire worse?: A:ClassB B:ClassC C:ClassD" $question
+    $event=1
+
+
+    u1: (A) $proposal1=0 ^nextProposal $surveyAnswers=0
+    u1: (B) $proposal1=0 ^nextProposal $surveyAnswers=0
+    u1: (C) $proposal1=1 ^nextProposal $surveyAnswers=1 
+    u1:(e:repeat)^sameProposal
+    u1:(e:aAnswer)$proposal1=0 ^nextProposal $surveyAnswers=0
+    u1:(e:bAnswer)$proposal1=0 ^nextProposal $surveyAnswers=0
+    u1:(e:cAnswer)$proposal1=1 ^nextProposal $surveyAnswers=1
+    u1: (~repeat) ^sameProposal
+
+proposal: ~joyful The Technical skill test is over \pau=300\ ~Neutral Let us see how you did in this whole pre-elimanary interview ^nextProposal
+        
+proposal:$score=1 $onStopped=1
+
+

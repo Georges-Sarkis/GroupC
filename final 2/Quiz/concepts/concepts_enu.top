@@ -1,0 +1,10 @@
+topic: ~concepts()
+language: enu
+
+concept: (scale) [1 2 3 4 5]
+concept: (repeat) [sorry "i didn't understand" repeat " i didn't hear"] 
+concept: (start) [start "i am ready" ready "go on" go] 
+concept: (answers) [A B C]
+concept:(neutral) \style=neutral\ \rspd=100\ \vct=110\
+concept:(Neutral) \style=neutral\ \vct=105\ \rspd=85\
+concept:(joyful) \style=joyful\ \rspd=80\ \vct=95\
