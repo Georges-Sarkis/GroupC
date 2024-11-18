@@ -42,12 +42,12 @@
         <File name="fa-solid-900" src="html/webfonts/fa-solid-900.ttf" />
         <File name="fa-solid-900" src="html/webfonts/fa-solid-900.woff" />
         <File name="fa-solid-900" src="html/webfonts/fa-solid-900.woff2" />
-        <File name="final_screen" src="html/pages/final_screen.html" />
         <File name="swiftswords_ext" src="behavior_1/swiftswords_ext.mp3" />
         <File name="taichimove" src="behavior_1/taichimove.pmt" />
         <File name="confirmation - Copy" src="html/pages/confirmation-copy.html" />
         <File name="confirmationtest" src="html/pages/confirmationtest.html" />
         <File name="Survey" src="Survey.pml" />
+        <File name="final_screen2" src="html/pages/final_screen2.html" />
     </Resources>
     <Topics>
         <Topic name="Survey_enu" src="Survey/Survey_enu.top" topicName="Survey" language="en_US" />

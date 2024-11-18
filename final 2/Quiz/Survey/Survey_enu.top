@@ -3,7 +3,7 @@ language: enu
 
 include: concepts_enu.top
 
-u: (e:onStart) \rspd=85\ we will start your technical quiz now. \pau=300\ It is a multiple choice questions, where only one question is  right \pau=500\ ^nextProposal
+u: (e:onStart) \rspd=85\ we will start your technical quiz now. \pau=300\ It is a multiple choice questions, where only one answer is  right \pau=500\ ^nextProposal
 
 
 proposal: $question="The size of a conductor used in power cables depends on the:  A:operating voltage; B:power factor; C:current to be carried" $question

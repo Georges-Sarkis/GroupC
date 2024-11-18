@@ -47,6 +47,8 @@
         <File name="taichimove" src="behavior_1/taichimove.pmt" />
         <File name="confirmation - Copy" src="html/pages/confirmation-copy.html" />
         <File name="confirmationtest" src="html/pages/confirmationtest.html" />
+        <File name="quiz" src="quiz.pml" />
+        <File name=".Survey_enu.top.15340" src="Survey/.Survey_enu.top.15340.csp" />
     </Resources>
     <Topics>
         <Topic name="Survey_enu" src="Survey/Survey_enu.top" topicName="Survey" language="en_US" />
