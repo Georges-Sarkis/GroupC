@@ -1,4 +1,4 @@
-topic: ~Survey()
+topic: ~quiz()
 language: enu
 
 include: concepts_enu.top
@@ -6,9 +6,7 @@ include: concepts_enu.top
 u: (e:onStart) \rspd=85\ we will start your technical quiz now. \pau=300\ It is a multiple choice questions, where only one answer is  right \pau=500\ ^nextProposal
 
 
-proposal: $question="The size of a conductor used in power cables depends on the:  A:operating voltage; B:power factor; C:current to be carried" $question
-
-   
+proposal: $question="The size of a conductor used in power cables depends on the: A:operating voltage; B:power factor; C:current to be carried" The size of a conductor used in power cables depends on the:\pau=300\ A:operating voltage \pau=300\ B:power factor \pau=300\ C:current to be carried
     $event=1
     u1: (A) $proposal1=0 ^nextProposal $surveyAnswers=0
     u1: (B) $proposal1=0 ^nextProposal $surveyAnswers=0
@@ -20,7 +18,7 @@ proposal: $question="The size of a conductor used in power cables depends on the
  
     u1: (~repeat) ^sameProposal
 
-proposal:$question= "If a resistor suddenly decreases in value, what will happen to the current through the resistor? A:Increases; B:Decreases; C:Remains the same" $question
+proposal:$question= "If a resistor suddenly decreases in value, what will happen to the current through the resistor? A:Increases; B:Decreases; C:Remains the same" If a resistor suddenly decreases in value, what will happen to the current through the resistor? \pau=300\ A:Increases \pau=300\ B:Decreases \pau=300\ C:Remains the same
     $event=1
     u1: (A) $proposal1=1 ^nextProposal $surveyAnswers=1
     u1: (B) $proposal1=0 ^nextProposal $surveyAnswers=0
@@ -31,7 +29,7 @@ proposal:$question= "If a resistor suddenly decreases in value, what will happen
     u1:(e:cAnswer)$proposal1=0 ^nextProposal $surveyAnswers=0
     u1: (~repeat) ^sameProposal
 
-proposal:$question="Which of the following devices can be used to test the windings of an inductor for continuity? A:Voltmeter; B:Wheatsone Bridge; C:Ohmmeter" $question
+proposal:$question="Which of the following devices can be used to test the windings of an inductor for continuity? A:Voltmeter; B:Wheatsone Bridge; C:Ohmmeter" Which of the following devices can be used to test the windings of an inductor for continuity? \pau=300\ A:Voltmeter \pau=300\ B:Wheatsone Bridge \pau=300\ C:Ohmmeter
     $event=1
 
     u1: (A) $proposal1=0 ^nextProposal $surveyAnswers=0
@@ -43,7 +41,7 @@ proposal:$question="Which of the following devices can be used to test the windi
     u1:(e:cAnswer)$proposal1=1 ^nextProposal $surveyAnswers=1
     u1: (~repeat) ^sameProposal
 
-proposal:$question="The most dangerous place to use electrical equipment is?: A:Indoors; B:Near Water; C:Outdoors" $question
+proposal:$question="The most dangerous place to use electrical equipment is?: A:Indoors; B:Near Water; C:Outdoors" The most dangerous place to use electrical equipment is?: \pau=300\ A:Indoors \pau=300\ B:Near Water \pau=300\ C:Outdoors
     $event=1
 
 
@@ -56,8 +54,8 @@ proposal:$question="The most dangerous place to use electrical equipment is?: A:
     u1:(e:cAnswer)$proposal1=0 ^nextProposal $surveyAnswers=0
     u1: (~repeat) ^sameProposal
 
-proposal: $question="The safest ladder to use around electricity is? A:Aluminium; B:Fiberglass C:step stool" $question
-
+proposal: $question="The safest ladder to use around electricity is? A:Aluminium; B:Fiberglass C:step stool"  The safest ladder to use around electricity is? \pau=300\ A:Aluminium \pau=300\ B:Fiberglass \pau=300\ C:step stool
+    $event=1
     u1: (A) $proposal1=0 ^nextProposal $surveyAnswers=0
     u1: (B) $proposal1=1 ^nextProposal $surveyAnswers=1
     u1: (C) $proposal1=0 ^nextProposal $surveyAnswers=0
@@ -67,7 +65,7 @@ proposal: $question="The safest ladder to use around electricity is? A:Aluminium
     u1:(e:cAnswer)$proposal1=0 ^nextProposal $surveyAnswers=0
     u1: (~repeat) ^sameProposal
 
-proposal:$question="Which type of fire extinguisher will only make the fire worse?: A:ClassB B:ClassC C:ClassD" $question
+proposal:$question="Which type of fire extinguisher will only make the fire worse?: A:Class B; B:Class C; C:Class D" Which type of fire extinguisher will only make the fire worse?: \pau=300\ A:Class B \pau=300\ B:Class C \pau=300\ C:Class D
     $event=1
 
 
@@ -83,5 +81,3 @@ proposal:$question="Which type of fire extinguisher will only make the fire wors
 proposal: ~joyful The Technical skill test is over \pau=300\ ~Neutral Let us see how you did in this whole pre-elimanary interview ^nextProposal
         
 proposal:$score=1 $onStopped=1
-
-
