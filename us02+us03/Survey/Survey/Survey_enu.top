@@ -1,0 +1,93 @@
+topic: ~Survey()
+language: enu
+
+concept: (scale) [1 2 3 4 5]
+concept: (repeat) [sorry "i didn't understand" repeat " i didn't hear"] 
+concept: (start) ^rand[start "i am ready" ready "go on" go] 
+concept: (Neutral) \style=neutral\ \rspd=100\ \vct=110\
+concept: (joyful) \style=joyful\ \rspd=80\ \vct=95\ 
+ 
+u: (~Start) we will start the survey now. Please answer the following questions on a scale of 1 to 5. ^nextProposal
+
+
+proposal: $softwarename="AutoCad" How familiar are you  with AutoCad?
+
+   
+    $event=1
+    u1: (_~scale) $proposal1=$1 ^nextProposal $surveyAnswers=$1 
+    u1:(e:repeat)^sameProposal
+    u1:(e:oneAnswer)$proposal1=1 ^nextProposal $surveyAnswers=1
+    u1:(e:twoAnswer)$proposal1=2 ^nextProposal $surveyAnswers=2
+    u1:(e:threeAnswer)$proposal1=3 ^nextProposal $surveyAnswers=3
+    u1:(e:fourAnswer)$proposal1=4 ^nextProposal $surveyAnswers=4
+    u1:(e:fiveAnswer)$proposal1=5 ^nextProposal $surveyAnswers=5
+    u1: (~repeat) ^sameProposal
+
+proposal:$softwarename="Revit" 
+ how familiar are you with Revit?
+    $event=1
+    u1: (_~scale) $proposal1=$1 ^nextProposal $surveyAnswers=$1
+    u1:(e:repeat)^sameProposal
+    u1:(e:oneAnswer)$proposal1=1 ^nextProposal $surveyAnswers=1
+    u1:(e:twoAnswer)$proposal1=2 ^nextProposal $surveyAnswers=2
+    u1:(e:threeAnswer)$proposal1=3 ^nextProposal $surveyAnswers=3
+    u1:(e:fourAnswer)$proposal1=4 ^nextProposal $surveyAnswers=4
+    u1:(e:fiveAnswer)$proposal1=5 ^nextProposal $surveyAnswers=5
+    u1: (~repeat) ^sameProposal
+
+proposal:$softwarename="EcoDial" How familiar are you with Eco-dial?
+    $event=1
+
+
+    u1: (_~scale) $proposal1=$1 ^nextProposal $surveyAnswers=$1
+    u1:(e:repeat)^sameProposal
+    u1:(e:oneAnswer)$proposal1=1 ^nextProposal $surveyAnswers=1
+    u1:(e:twoAnswer)$proposal1=2 ^nextProposal $surveyAnswers=2
+    u1:(e:threeAnswer)$proposal1=3 ^nextProposal $surveyAnswers=3
+    u1:(e:fourAnswer)$proposal1=4 ^nextProposal $surveyAnswers=4
+    u1:(e:fiveAnswer)$proposal1=5 ^nextProposal $surveyAnswers=5
+    u1: (~repeat) ^sameProposal
+
+proposal:$softwarename="Dialux" How familiar are you with Dia-lux?
+    $event=1
+
+
+    u1: (_~scale) $proposal1=$1 ^nextProposal $surveyAnswers=$1
+    u1:(e:repeat)^sameProposal
+    u1:(e:oneAnswer)$proposal1=1 ^nextProposal $surveyAnswers=1
+    u1:(e:twoAnswer)$proposal1=2 ^nextProposal $surveyAnswers=2
+    u1:(e:threeAnswer)$proposal1=3 ^nextProposal $surveyAnswers=3
+    u1:(e:fourAnswer)$proposal1=4 ^nextProposal $surveyAnswers=4
+    u1:(e:fiveAnswer)$proposal1=5 ^nextProposal $surveyAnswers=5
+    u1: (~repeat) ^sameProposal
+
+proposal:$softwarename="Excel" How familiar are you with Excel?
+    $event=1
+
+
+    u1: (_~scale) $proposal1=$1 ^nextProposal $surveyAnswers=$1
+    u1:(e:repeat)^sameProposal
+    u1:(e:oneAnswer)$proposal1=1 ^nextProposal $surveyAnswers=1
+    u1:(e:twoAnswer)$proposal1=2 ^nextProposal $surveyAnswers=2
+    u1:(e:threeAnswer)$proposal1=3 ^nextProposal $surveyAnswers=3
+    u1:(e:fourAnswer)$proposal1=4 ^nextProposal $surveyAnswers=4
+    u1:(e:fiveAnswer)$proposal1=5 ^nextProposal $surveyAnswers=5
+    u1: (~repeat) ^sameProposal
+
+proposal:$softwarename="Visio"
+  How familiar are you with Visio?
+    $event=1
+
+
+    u1: (_~scale) $proposal1=$1 ^nextProposal $surveyAnswers=$1
+    u1:(e:repeat)^sameProposal
+    u1:(e:oneAnswer)$proposal1=1 ^goto(scoreProposal) $surveyAnswers=1
+    u1:(e:twoAnswer)$proposal1=2 ^goto(scoreProposal) $surveyAnswers=2
+    u1:(e:threeAnswer)$proposal1=3 ^goto(scoreProposal) $surveyAnswers=3
+    u1:(e:fourAnswer)$proposal1=4 ^goto(scoreProposal) $surveyAnswers=4
+    u1:(e:fiveAnswer)$proposal1=5 ^goto(scoreProposal) $surveyAnswers=5
+    u1: (~repeat) ^sameProposal
+    
+proposal: ~joyful Your survey is over \pau=300\ ~Neutral  lets see how you did ^nextProposal
+
+proposal:$score=1 $onStopped=1
