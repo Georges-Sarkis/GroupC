@@ -46,17 +46,9 @@
         <File name="fa-solid-900" src="html/webfonts/fa-solid-900.ttf" />
         <File name="fa-solid-900" src="html/webfonts/fa-solid-900.woff" />
         <File name="fa-solid-900" src="html/webfonts/fa-solid-900.woff2" />
-        <File name="ProjectSettings" src="html/pages/.vs/ProjectSettings.json" />
-        <File name="applicationhost" src="html/pages/.vs/pages/config/applicationhost.config" />
-        <File name="slnx" src="html/pages/.vs/slnx.sqlite" />
-        <File name="" src="html/pages/.vs/pages/v16/.suo" />
         <File name="final_screen" src="html/pages/final_screen.html" />
         <File name="swiftswords_ext" src="behavior_1/swiftswords_ext.mp3" />
         <File name="taichimove" src="behavior_1/taichimove.pmt" />
-        <File name="VSWorkspaceState" src="html/pages/.vs/VSWorkspaceState.json" />
-        <File name="ProjectSettings" src=".vs/ProjectSettings.json" />
-        <File name="slnx" src=".vs/slnx.sqlite" />
-        <File name="VSWorkspaceState" src=".vs/VSWorkspaceState.json" />
         <File name="confirmation - Copy" src="html/pages/confirmation - Copy.html" />
         <File name="download" src="html/pics/download.jpeg" />
         <File name="confirmationtest" src="html/pages/confirmationtest.html" />
