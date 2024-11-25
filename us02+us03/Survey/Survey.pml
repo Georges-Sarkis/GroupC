@@ -5,13 +5,13 @@
         <BehaviorDescription name="behavior" src="behavior_1" xar="behavior.xar" />
     </BehaviorDescriptions>
     <Dialogs>
-        <Dialog name="Survey" src="Survey/Survey.dlg" />
         <Dialog name="concepts" src="concepts/concepts.dlg" />
         <Dialog name="quiz" src="quiz/quiz.dlg" />
         <Dialog name="block2" src="block2/block2.dlg" />
         <Dialog name="concepts" src="concepts01/concepts01.dlg" />
         <Dialog name="initiateInteraction" src="initiateInteraction/initiateInteraction.dlg" />
         <Dialog name="nextBehavior" src="nextBehavior/nextBehavior.dlg" />
+        <Dialog name="Survey" src="Survey/Survey.dlg" />
     </Dialogs>
     <Resources>
         <File name="all" src="html/css/all.css" />
@@ -52,23 +52,27 @@
         <File name="confirmation - Copy" src="html/pages/confirmation - Copy.html" />
         <File name="download" src="html/pics/download.jpeg" />
         <File name="confirmationtest" src="html/pages/confirmationtest.html" />
-        <File name="New Text Document" src="New Text Document.txt" />
         <File name="confirmation-copy" src="html/pages/confirmation-copy.html" />
         <File name="final_screen2" src="html/pages/final_screen2.html" />
         <File name="picture1" src="html/pics/picture1.jpg" />
-        <File name="us03" src="us03.pml" />
         <File name="confirmation1" src="html/pages/confirmation1.html" />
         <File name="confirmation2" src="html/pages/confirmation2.html" />
         <File name="displayinfo" src="html/pages/displayinfo.html" />
+        <File name="New Text Document" src="New Text Document.txt" />
+        <File name="compElec" src="html/pics/compElec.jpg" />
+        <File name="computer" src="html/pics/computer.jpg" />
+        <File name="electrical" src="html/pics/electrical.jpg" />
+        <File name="qrcode" src="html/pics/qrcode.jpg" />
+        <File name="us03" src="us03.pml" />
     </Resources>
     <Topics>
-        <Topic name="Survey_enu" src="Survey/Survey_enu.top" topicName="Survey" language="en_US" />
         <Topic name="concepts_enu" src="concepts/concepts_enu.top" topicName="concepts" language="en_US" />
         <Topic name="quiz_enu" src="quiz/quiz_enu.top" topicName="quiz" language="en_US" />
         <Topic name="block2_enu" src="block2/block2_enu.top" topicName="block2" language="en_US" />
         <Topic name="concepts01_enu" src="concepts01/concepts01_enu.top" topicName="concepts01" language="en_US" />
         <Topic name="initiateInteraction_enu" src="initiateInteraction/initiateInteraction_enu.top" topicName="initiateInteraction" language="en_US" />
         <Topic name="nextBehavior_enu" src="nextBehavior/nextBehavior_enu.top" topicName="nextBehavior" language="en_US" />
+        <Topic name="Survey_enu" src="Survey/Survey_enu.top" topicName="Survey" language="en_US" />
     </Topics>
     <IgnoredPaths />
     <Translations auto-fill="en_US">

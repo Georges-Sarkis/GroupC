@@ -3,11 +3,10 @@ language: enu
 
 concept: (scale) [1 2 3 4 5]
 concept: (repeat) [sorry "i didn't understand" repeat " i didn't hear"] 
-concept: (start) ^rand[start "i am ready" ready "go on" go] 
 concept: (Neutral) \style=neutral\ \rspd=100\ \vct=110\
 concept: (joyful) \style=joyful\ \rspd=80\ \vct=95\ 
  
-u: (~Start) we will start the survey now. Please answer the following questions on a scale of 1 to 5. ^nextProposal
+u: (e:onStart) we will start the survey now. Please answer the following questions on a scale of 1 to 5. ^nextProposal
 
 
 proposal: $softwarename="AutoCad" How familiar are you  with AutoCad?
