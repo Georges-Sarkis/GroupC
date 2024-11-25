@@ -18,6 +18,16 @@ function getUrlParam(param, defaultVal){
 function displayPageInformation() {
     document.getElementById("pageHeading").innerHTML = decodeURI(getUrlParam("pageHeading", ""));
     document.getElementById("pageText").innerHTML  = decodeURI(getUrlParam("pageText", ""));
+
+    imageName = getUrlParam("pageImage", "");
+    if (imageName) {
+        document.getElementById("pageImage").src = "../pics/" + imageName;
+    }
+}
+
+function displayPageInformationScore() {
+    document.getElementById("pageHeading").innerHTML = decodeURI(getUrlParam("pageHeading", ""));
+    document.getElementById("pageText").innerHTML  = decodeURI(getUrlParam("pageText", ""));
     document.getElementById("score01").innerHTML =decodeURI(getUrlParam("score01", ""));
 
     imageName = getUrlParam("pageImage", "");
