@@ -12,13 +12,14 @@
         <Dialog name="initiateInteraction" src="initiateInteraction/initiateInteraction.dlg" />
         <Dialog name="nextBehavior" src="nextBehavior/nextBehavior.dlg" />
         <Dialog name="Survey" src="Survey/Survey.dlg" />
+        <Dialog name="byebye" src="byebye/byebye.dlg" />
+        <Dialog name="closing" src="closing/closing.dlg" />
     </Dialogs>
     <Resources>
         <File name="all" src="html/css/all.css" />
         <File name="formatting" src="html/css/formatting.css" />
         <File name="home" src="html/css/home.css" />
         <File name="w3" src="html/css/w3.css" />
-        <File name="index" src="html/index.html" />
         <File name="all" src="html/js/all.js" />
         <File name="displayimage" src="html/js/displayimage.js" />
         <File name="displayinfo" src="html/js/displayinfo.js" />
@@ -58,11 +59,12 @@
         <File name="confirmation1" src="html/pages/confirmation1.html" />
         <File name="confirmation2" src="html/pages/confirmation2.html" />
         <File name="displayinfo" src="html/pages/displayinfo.html" />
-        <File name="New Text Document" src="New Text Document.txt" />
         <File name="compElec" src="html/pics/compElec.jpg" />
         <File name="computer" src="html/pics/computer.jpg" />
         <File name="electrical" src="html/pics/electrical.jpg" />
         <File name="qrcode" src="html/pics/qrcode.jpg" />
+        <File name="New Text Document" src="New Text Document.txt" />
+        <File name="index" src="html/index.html" />
         <File name="us03" src="us03.pml" />
     </Resources>
     <Topics>
@@ -73,6 +75,8 @@
         <Topic name="initiateInteraction_enu" src="initiateInteraction/initiateInteraction_enu.top" topicName="initiateInteraction" language="en_US" />
         <Topic name="nextBehavior_enu" src="nextBehavior/nextBehavior_enu.top" topicName="nextBehavior" language="en_US" />
         <Topic name="Survey_enu" src="Survey/Survey_enu.top" topicName="Survey" language="en_US" />
+        <Topic name="byebye_enu" src="byebye/byebye_enu.top" topicName="byebye" language="en_US" />
+        <Topic name="closing_enu" src="closing/closing_enu.top" topicName="closing" language="en_US" />
     </Topics>
     <IgnoredPaths />
     <Translations auto-fill="en_US">

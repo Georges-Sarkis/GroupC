@@ -1,0 +1,9 @@
+topic: ~closing()
+language: enu
+
+u:(e:onStart)the interview has ended, hope you enjoyed the proccess and did not find any problems interacting with me^nextProposal
+
+ proposal:\rspd=90\\pau=500\thank you your results are now saved in our database\pau=500\we will contact you later wether you were accepted or not. \pau=500\ if you need any help please refer to the reception and they will guide you. $onStopped=1 ^nextProposal
+ 
+ 
+ 

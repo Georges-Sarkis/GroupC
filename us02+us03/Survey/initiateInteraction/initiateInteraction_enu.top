@@ -4,7 +4,7 @@ language: enu
 include: concepts01_enu.top
 
 u: (~greetings) $helloAnimated=1. \RSPD=90\ \pau=2000\ ~greetings what is your name
-    u1:(my name is _~names) nice to meet you $1 $hisName = $1 ^nextProposal
+    u1:({my name is} _~names) nice to meet you $1 $hisName = $1 ^nextProposal
     
 proposal: are you applying for a position at this company? $showQuestion1=1
     u1:(yes) $yesOutput=1 
