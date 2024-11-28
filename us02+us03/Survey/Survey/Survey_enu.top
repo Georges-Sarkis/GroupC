@@ -80,13 +80,13 @@ proposal:$softwarename="Visio"
 
     u1: (_~scale) $proposal1=$1 ^nextProposal $surveyAnswers=$1
     u1:(e:repeat)^sameProposal
-    u1:(e:oneAnswer)$proposal1=1 ^goto(scoreProposal) $surveyAnswers=1
-    u1:(e:twoAnswer)$proposal1=2 ^goto(scoreProposal) $surveyAnswers=2
-    u1:(e:threeAnswer)$proposal1=3 ^goto(scoreProposal) $surveyAnswers=3
-    u1:(e:fourAnswer)$proposal1=4 ^goto(scoreProposal) $surveyAnswers=4
-    u1:(e:fiveAnswer)$proposal1=5 ^goto(scoreProposal) $surveyAnswers=5
+    u1:(e:oneAnswer)$proposal1=1 ^goto(scoreProposal) $surveyAnswers=1 ^nextProposal
+    u1:(e:twoAnswer)$proposal1=2 ^goto(scoreProposal) $surveyAnswers=2 ^nextProposal
+    u1:(e:threeAnswer)$proposal1=3 ^goto(scoreProposal) $surveyAnswers=3 ^nextProposal
+    u1:(e:fourAnswer)$proposal1=4 ^goto(scoreProposal) $surveyAnswers=4 ^nextProposal
+    u1:(e:fiveAnswer)$proposal1=5 ^goto(scoreProposal) $surveyAnswers=5 ^nextProposal
     u1: (~repeat) ^sameProposal
     
 proposal: ~joyful Your survey is over \pau=300\ ~Neutral  lets see how you did ^nextProposal
 
-proposal:$score=1 $onStopped=1
+proposal: Your result will appear on the screen after 15 seconds $score=1 $onStopped=1
