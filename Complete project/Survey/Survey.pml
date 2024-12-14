@@ -65,7 +65,6 @@
         <File name="qrcode" src="html/pics/qrcode.jpg" />
         <File name="New Text Document" src="New Text Document.txt" />
         <File name="index" src="html/index.html" />
-        <File name="us03" src="us03.pml" />
         <File name="byebyeImage" src="html/pics/byebyeImage.jpeg" />
     </Resources>
     <Topics>
