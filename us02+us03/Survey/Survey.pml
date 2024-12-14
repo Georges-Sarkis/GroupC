@@ -66,6 +66,7 @@
         <File name="New Text Document" src="New Text Document.txt" />
         <File name="index" src="html/index.html" />
         <File name="us03" src="us03.pml" />
+        <File name="byebyeImage" src="html/pics/byebyeImage.jpeg" />
     </Resources>
     <Topics>
         <Topic name="concepts_enu" src="concepts/concepts_enu.top" topicName="concepts" language="en_US" />

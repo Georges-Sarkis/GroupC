@@ -6,9 +6,9 @@ include: concepts_enu.top
 u:(e:onStart) $showOptions=1 ^nextProposal 
         
 proposal: \RSPD=90\ \pau=500\ are you applying for an electrical engineering or computer engineering position 
-    u1:(_~position) ~joyful Ah so you are applying for $1 ~Neutral $hisPosition=$1 ^first["$hisPosition==electrical $electrical=1 ^nextProposal" "$computer=1 Please refer to robot A11 or A12 "]
+    u1:(_~position) ~joyful Ah so you are applying for $1 ~Neutral $hisPosition=$1 ^first["$hisPosition==electrical $electrical=1 ^nextProposal" " 'please refer to another robot' $computer=1 \pau=1000\ $onStopped=1 "]
     u1: (e:yesAnswer)  $electrical=1 ~joyful Ah so you are applying for electrical ~Neutral ^nextProposal
-    u1: (e:noAnswer) please reffer to another robot $computer=1 $onStopped=1 \pau=500\
+    u1: (e:noAnswer) please refer to another robot $computer=1 $onStopped=1 \pau=500\
         
 proposal:please scan the qr code on the tablet screen, to submit all the files required $showImage="pics/qrcode.jpg"  $onStopped=1
 

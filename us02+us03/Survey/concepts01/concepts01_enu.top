@@ -2,8 +2,7 @@ topic: ~concepts01()
 language: enu
 
 concept: (greetings) ^rand [hi hello hey "hey there"]
-concept: (names)[jad john chris mark maher george ]
-concept: (repeat) ["i did not understand" repeat "what did you say" sorry]
+concept: (names)[jad john chris mark maher george]
 concept: (position) [electrical computer]
 concept: (repeat) ["i did not understand" repeat "what did you say" sorry]
 concept:(Neutral) \style=neutral\ \rspd=90\ \vct=110\

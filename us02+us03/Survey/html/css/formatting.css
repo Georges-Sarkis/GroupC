@@ -104,7 +104,7 @@ h1,h2,h3,h4,h5,h6 {
 .fade-red-btn {color: #dd4b39;} .fade-red-btn:hover, .fade-red-btn:active {background-color:#dd4b39; color: white;}
 .red-btn {background-color: whitesmoke;color: red;} .red-btn:hover, .red-btn:active {background-color:red; color: whitesmoke;}
 .start-btn {color: darkcyan} .start-btn:hover, .start-btn:active {background-color:maroon; color: white;}
-.brown-btn {background-color: whitesmoke;color: brown} .brown-btn:hover, .brown-btn:active {background-color:brown; color: white;}
+.brown-btn {background-color: whitesmoke;color: green} .brown-btn:hover, .brown-btn:active {background-color:green; color: white;}
 .green-btn {background-color: whitesmoke;color: green} .green-btn:hover, .green-btn:active {background-color:green; color: whitesmoke;}
 .blue-btn {background-color: #1589FF;color: whitesmoke} .blue-btn:hover, .blue-btn:active {background-color:whitesmoke; color: #1589FF;}
 
