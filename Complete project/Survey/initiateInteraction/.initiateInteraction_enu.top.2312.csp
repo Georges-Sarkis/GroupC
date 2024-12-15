@@ -8,7 +8,7 @@ u: (~greetings) $helloAnimated=1. \RSPD=90\ \pau=2000\ ~greetings what is your n
     
 proposal: are you applying for a position at this company? $showQuestion1=1
     u1:(yes) $yesOutput=1 
-    u1:(no) please reffer to another robot $onStopped=1
+    u1:(no) please refer to another robot $onStopped=1
     u1: (e:yesAnswer)  $yesOutput=1 
     u1: (e:noAnswer) please reffer to another robot $onStopped=1
     u1:(~repeat) ^sameProposal
