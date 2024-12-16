@@ -3,4 +3,4 @@ language: enu
 
 u:(e:onStart)\pau=1500\bye bye $showFinalImage="pics/byebyeImage.jpeg" ^nextProposal
 
-Proposal: \pau=5000\ $onStopped=1
+proposal: \pau=5000\ $onStopped=1

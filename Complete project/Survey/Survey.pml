@@ -66,6 +66,7 @@
         <File name="New Text Document" src="New Text Document.txt" />
         <File name="index" src="html/index.html" />
         <File name="byebyeImage" src="html/pics/byebyeImage.jpeg" />
+        <File name="launch" src="html/pages/.vscode/launch.json" />
     </Resources>
     <Topics>
         <Topic name="concepts_enu" src="concepts/concepts_enu.top" topicName="concepts" language="en_US" />

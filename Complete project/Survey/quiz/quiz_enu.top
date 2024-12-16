@@ -8,9 +8,9 @@ u: (e:onStart) \rspd=85\ we will start your technical quiz now. \pau=300\ It is 
 
 proposal: $question="The size of a conductor used in power cables depends on the: A:operating voltage; B:power factor; C:current to be carried" The size of a conductor used in power cables depends on the:\pau=300\ A:operating voltage \pau=300\ B:power factor \pau=300\ C:current to be carried
     $event=1
-    u1: (A) $proposal1=0 ^nextProposal $surveyAnswers=0
-    u1: (B) $proposal1=0 ^nextProposal $surveyAnswers=0
-    u1: (C) $proposal1=1 ^nextProposal $surveyAnswers=1 
+    u1: (one) $proposal1=0 ^nextProposal $surveyAnswers=0
+    u1: (two) $proposal1=0 ^nextProposal $surveyAnswers=0
+    u1: (three) $proposal1=1 ^nextProposal $surveyAnswers=1 
     u1:(e:repeat)^sameProposal
     u1:(e:aAnswer)$proposal1=0 ^nextProposal $surveyAnswers=0
     u1:(e:bAnswer)$proposal1=0 ^nextProposal $surveyAnswers=0
