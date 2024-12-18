@@ -17,7 +17,9 @@ https://netusekedu-my.sharepoint.com/:v:/g/personal/georges_y_sarkis_net_usek_ed
 - Show different images on the robot tablet during the interaction
 - Put all concepts in their own dialogue box 
 - Modify the "displayinfo" template to accept an image as argument (i.e., in addition to headingText and pageText)
+- Modify the "confirmation" template according to our needs
 - Create new html pages in order to do the sum
-- Computed a sum to the final scores of the survey and quiz
+- Computed a sum to show the final scores of the survey and quiz
+- Did a trial with a random user
 
 
